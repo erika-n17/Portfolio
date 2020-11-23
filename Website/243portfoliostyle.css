@@ -67,7 +67,7 @@ body{
 	background-color: #000223;
 	color: #FFFFFF;
 	padding: 2% 5%;
-	font-size:30px;
+	font-size:calc(1.8vw);
 	position:relative;
 }
 
@@ -118,7 +118,7 @@ body{
 .links ul li a{
   color: white;
   padding: 0px 10px 0px 10px;
-  font-size: 30px;
+  font-size:calc(1.8vw);
   text-decoration: none;
   vertical-align: -80%
 }
