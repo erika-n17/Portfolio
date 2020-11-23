@@ -29,12 +29,12 @@ body{
 }
 
 .wrapper{
-	background: url(background.png);
+	background: url(references/background.png);
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	vertical-align: baseline;
 	width: 100%;
-	height: calc(50vw);
+	height: calc(40vw);
 	position:relative
 }
 
@@ -67,7 +67,7 @@ body{
 	background-color: #000223;
 	color: #FFFFFF;
 	padding: 2% 5%;
-	font-size:calc(1.8vw);
+	font-size:calc(1vw);
 	position:relative;
 }
 
@@ -126,7 +126,7 @@ body{
 footer{
 	bottom:0;
 	position:static;
-	height:calc(4vh / 2vw);
+	height:calc(4vh / 3vw);
 	width: 100%;
 	background-color: #000223;
 	color: #FFFFFF;
