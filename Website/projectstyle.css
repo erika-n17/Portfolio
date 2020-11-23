@@ -87,6 +87,6 @@
 .grid-item:hover p {
   padding: 10% 0;
   margin: 5%;
-  font-size:40px;
+  font-size:calc(1.8vw);
 
 }
