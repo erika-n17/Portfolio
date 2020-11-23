@@ -13,8 +13,8 @@
   overflow: hidden;
   position: relative;
   margin: 1% 1%;
-  width:1100px;
-  height:1000px;
+  width:calc(40vw);
+  height:calc(40vw);
 }
 
 .grid-item > a {
@@ -31,19 +31,19 @@
 .grid-item h1{
   padding: 30px 0px 0px 0px;
   margin: 0;
-  font-size: calc(1.8vw);
+  font-size: calc(1.5vw);
 }
 
 .grid-item h2 {
   padding: 10px 0px 0px 0px;
   margin: 0;
-  font-size: calc(1.3vw);
+  font-size: calc(1.2vw);
 }
 
 .grid-item p {
   padding: 10% 0;
   margin: 5%;
-  font-size:calc(1vw);
+  font-size:calc(1.5vw);
 }
 
 .overlay-bot {
@@ -75,18 +75,18 @@
 .grid-item:hover h1{
   padding: 30px 0px 0px 0px;
   margin: 0;
-  font-size: calc(1.8vw);
+  font-size: calc(1.5vw);
 }
 
 .grid-item:hover h2 {
   padding: 10px 0px 0px 0px;
   margin: 0;
-  font-size: calc(1.3vw);
+  font-size: calc(1.2vw);
 }
 
 .grid-item:hover p {
   padding: 10% 0;
   margin: 5%;
-  font-size:calc(1.8vw);
+  font-size:calc(1.5vw);
 
 }
