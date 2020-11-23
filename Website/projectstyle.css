@@ -13,8 +13,8 @@
   overflow: hidden;
   position: relative;
   margin: 1% 1%;
-  width:450px;
-  height:450px;
+  width:400px;
+  height:400px;
 }
 
 .grid-item > a {
