@@ -1,41 +1,21 @@
-  
-/*
-  font-color:
-  font-size: 
-  font-family: 
-  text-transform:
-  font-size: 
-  font-weight: 
-  line-height: 
-  font-family: 
-  word-spacing: 
-  letter-spacing: 
-
-  background-color: #466995;
-  border-bottom: 1px solid #466995;
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-*/
-
-
+ 
 body{
   margin: 0;
   width:100%;
   font-family: "Lato", Times, sans-serif;
   display: flex;
-	flex-direction:column;
-	align-items: center;
+  flex-direction:column;
+  align-items: center;
 }
 
 .wrapper{
-	background: url(references/background.png);
+	background: url(background.png);
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	vertical-align: baseline;
 	width: 100%;
-	height: calc(40vw);
-	position:relative
+	position:relative;
+	height:calc(83000vw/1494);
 }
 
 .intro{
@@ -67,7 +47,7 @@ body{
 	background-color: #000223;
 	color: #FFFFFF;
 	padding: 2% 5%;
-	font-size:calc(1vw);
+	font-size:15px;
 	position:relative;
 }
 
@@ -77,13 +57,14 @@ body{
 
 .projects {
 	text-align: center;
-	font-size: 30px;
+	font-size: 15px;
 	padding-bottom: 20px;
 	position:relative;
 	display: flex;
 	flex-direction:column;
 	align-items: center;
 	width: 100%;
+	flex-grow:1;
 }
 
 .projects h2{
@@ -97,39 +78,46 @@ body{
 	color:white;
 	margin: 1%;
 	text-decoration: none;
-	font-size: 45px;
+	font-size: 15px;
 	border-radius:25px;
-	width: 700px;
 }
 
-.links ul{
-  margin: 20px;
+footer ul{
   width: 100%;
+  height:40px;
+  flex-shrink:1;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content: center;
 }
 
-.links ul li{
+footer ul li{
   display: inline-block;
   list-style-type: none;
-  padding: 2px 50px 4px 50px;
-  height: calc(3vh);
-  vertical-align: -90%;
+  padding: 10px 5% 4px 5%;
+  height: 40px;
+  width:120px;
 }
 
-.links ul li a{
+footer ul li a{
   color: white;
-  padding: 0px 10px 0px 10px;
-  font-size:calc(1.8vw);
+  padding: 10px 1% 0px 1%;
+  font-size: 15px;
   text-decoration: none;
-  vertical-align: -80%
 }
 
 footer{
-	bottom:0;
-	position:static;
-	height:calc(4vh / 3vw);
+	margin-top: auto;
+	margin-bottom:auto;
+	height:50px;
 	width: 100%;
 	background-color: #000223;
 	color: #FFFFFF;
 	text-align: center;
 	padding: 20px;
+	display: flex;
+  	flex-direction:column;
+  	align-items: center;
+	
 }
