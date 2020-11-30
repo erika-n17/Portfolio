@@ -1,23 +1,4 @@
   
-/*
-  font-color:
-  font-size: 
-  font-family: 
-  text-transform:
-  font-size: 
-  font-weight: 
-  line-height: 
-  font-family: 
-  word-spacing: 
-  letter-spacing: 
-
-  background-color: #466995;
-  border-bottom: 1px solid #466995;
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-*/
-
 
 body{
   margin: 0;
@@ -35,7 +16,7 @@ body{
 	vertical-align: baseline;
 	width: 100%;
 	position:relative;
-	height:calc(83000vw/1494);
+	height:calc(75000vw/1500);
 }
 
 .intro{
@@ -67,7 +48,7 @@ body{
 	background-color: #000223;
 	color: #FFFFFF;
 	padding: 2% 5%;
-	font-size:15px;
+	font-size:calc(1.2vw);
 	position:relative;
 }
 
