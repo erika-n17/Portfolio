@@ -75,18 +75,17 @@
 .grid-item:hover h1{
   padding: 30px 0px 0px 0px;
   margin: 0;
-  font-size: calc(1vw);
+  font-size: 25px;
 }
 
 .grid-item:hover h2 {
-  padding: 10px 0px 0px 0px;
+  padding: 5px 0px 0px 0px;
   margin: 0;
-  font-size: calc(1vw);
+  font-size: 20px;
 }
 
 .grid-item:hover p {
-  padding: 10% 0;
-  margin: 5%;
-  font-size: calc(1vw);
-
+  padding: 10px 0;
+  margin: 3%;
+  font-size: 15px;
 }
