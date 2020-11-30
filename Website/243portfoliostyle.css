@@ -1,4 +1,24 @@
- 
+  
+/*
+  font-color:
+  font-size: 
+  font-family: 
+  text-transform:
+  font-size: 
+  font-weight: 
+  line-height: 
+  font-family: 
+  word-spacing: 
+  letter-spacing: 
+
+  background-color: #466995;
+  border-bottom: 1px solid #466995;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+*/
+
+
 body{
   margin: 0;
   width:100%;
@@ -9,7 +29,7 @@ body{
 }
 
 .wrapper{
-	background: url(references/background.png);
+	background: url(background.png);
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	vertical-align: baseline;
@@ -23,7 +43,7 @@ body{
 	padding-right: 10%;
 	text-align: right;
 	grid-template-columns: 2;
-	font-size:calc(1.8vw);
+	font-size: calc(1.8vw);
 }
 
 .buttons {
