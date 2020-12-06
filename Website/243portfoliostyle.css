@@ -1,7 +1,27 @@
   
+/*
+  font-color:
+  font-size: 
+  font-family: 
+  text-transform:
+  font-size: 
+  font-weight: 
+  line-height: 
+  font-family: 
+  word-spacing: 
+  letter-spacing: 
+
+  background-color: #466995;
+  border-bottom: 1px solid #466995;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+*/
+
+
 
 body{
-  margin: 0;
+  margin: 0px 0px;
   width:100%;
   font-family: "Lato", Times, sans-serif;
   display: flex;
@@ -10,17 +30,32 @@ body{
 }
 
 .wrapper{
-	background: url(references/background.png);
+	background: url(bubbles.png);
+	background-position: center bottom;
 	background-repeat: no-repeat;
-	background-size: 100% auto;
 	vertical-align: baseline;
 	width: 100%;
 	position:relative;
-	height:calc(75000vw/1500);
+	height:calc(40vw);
+}
+
+.wrapper #corner{
+	height: 55%;
+	width:auto;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.wrapper #me{
+	height: auto;
+	width: calc(30vw);
+	position: absolute;
+	bottom: 0;
+	left: 15%;
 }
 
 .intro{
-	padding-top: 8%;
+	padding-top: 5%;
 	padding-right: 10%;
 	text-align: right;
 	grid-template-columns: 2;
@@ -47,8 +82,8 @@ body{
 .about{
 	background-color: #000223;
 	color: #FFFFFF;
-	padding: 2% 5%;
-	font-size:calc(1.2vw);
+	padding: 2% 15%;
+	font-size:15px;
 	position:relative;
 }
 
@@ -71,6 +106,14 @@ body{
 .projects h2{
 	padding:10px;
 	margin:10px;
+	color:#000223;
+}
+
+.projects p{
+	padding: 0.5% 15%;
+	font-size:15px;
+	position:relative
+	color: #000223;
 }
 
 .gitbutton{

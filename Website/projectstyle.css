@@ -31,24 +31,24 @@
 .grid-item h1{
   padding: 30px 0px 0px 0px;
   margin: 0;
-  font-size: calc(1.5vw);
+  font-size: 25px;
 }
 
 .grid-item h2 {
   padding: 10px 0px 0px 0px;
   margin: 0;
-  font-size: calc(1.2vw);
+  font-size: 20px;
 }
 
 .grid-item p {
-  padding: 10% 0;
-  margin: 5%;
-  font-size:calc(1.5vw);
+  padding: 8% 0;
+  margin: 3%;
+  font-size:15px;
 }
 
 .overlay-bot {
   position: absolute;
-  background-color: #000;
+  background-color: #000223;
   text-align: center;
   width: 100%;
   overflow: hidden;
@@ -65,6 +65,7 @@
 .grid-item p {
   transition: padding 0.4s ease-out 0.4s;
   font-weight: 300;
+  color: #fff;
 }
 
 .grid-item:hover .overlay-bot {
@@ -81,7 +82,7 @@
 .grid-item:hover h2 {
   padding: 5px 0px 0px 0px;
   margin: 0;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .grid-item:hover p {
